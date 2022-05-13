@@ -1,6 +1,7 @@
 import React from 'react';
 import { Text, StyleSheet, SafeAreaView, View } from 'react-native';
 
+
 function ProfileScreen() {
     return (
 
