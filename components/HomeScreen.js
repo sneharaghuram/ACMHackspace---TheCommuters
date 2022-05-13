@@ -1,11 +1,22 @@
 import React from 'react';
-import { Text } from 'react-native';
+import { Text, Button, View } from 'react-native';
 import {SafeAreaView} from 'react-native';
 
-function Homescreen() {
+function HomeScreen(props) {
+
+
+
     return (
       <SafeAreaView>
-        <Text>'Welcome to AppName'</Text>;
+        <View>
+          <Text>'Welcome to AppName'</Text>
+          <Button
+            title='press me'
+            onPress={() => props.navigation.navigate('ProfileScreen')}
+          />
+        </View>
+
+
       </SafeAreaView>
     );
   } 
