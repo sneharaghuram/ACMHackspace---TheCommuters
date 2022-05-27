@@ -8,7 +8,10 @@ export default function App() {
   return (
     
      
-      <ProfileScreen />
+      <ProfileScreen 
+      WelcomeMessage = "Welcome to AppName"
+      
+      />
     
   );
 }
